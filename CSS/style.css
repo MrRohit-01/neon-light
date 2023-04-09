@@ -1,38 +1,57 @@
+ @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&display=swap');
 * {
     padding: 0;
     margin: 0;
 }
-
+:root{
+font-family: 'DM Sans', sans-serif;
+}
 body {
     overflow: hidden;
 }
 
 .navbar {
-    height: 30px;
+    height: 35px;
     display: flex;
     align-items: center;
-    background:linear-gradient(45deg,#001021,#0F110C)
+    background-color:#000;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    z-index: 1;
 }
+#i001,#i002,#i003,#i004  {
+    background-color: #FFF;
+    height: 20px;
+    width: 65px;
+    border-radius: 20px;
+    text-align: center;
+    
+}   
+
 .navbar ul {
     display: flex;
     justify-content: left;
     align-items: center;
     color: #EEE0CB;
 }
-
+#round{
+    z-index: 0;
+}
 li {
     text-transform: capitalize;
     list-style-type: none;
-    margin: 0px 20px;
+    margin: 0px 25px;
+    color: #000;
+    
 }
 .container {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
-    background-color: #000;
-    z-index: 1;
+    background-position: center ;
     height: 100vh;
     width: 100vw;
+    background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+    z-index: 2;
 }
 
 .outer,
@@ -66,7 +85,6 @@ button {
     background-color: #000;
     color: #fff;
     z-index: 2;
-    border: 0;
 }
 
 .circle {
