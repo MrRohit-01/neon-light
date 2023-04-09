@@ -11,12 +11,13 @@ body {
     height: 30px;
     display: flex;
     align-items: center;
-    background:linear-gradient(45deg,#14ffe9,#ffeb3b)
+    background:linear-gradient(45deg,#001021,#0F110C)
 }
 .navbar ul {
     display: flex;
     justify-content: left;
     align-items: center;
+    color: #EEE0CB;
 }
 
 li {
