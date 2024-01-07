@@ -15,7 +15,7 @@ body {
     display: flex;
     align-items: center;
     background-color:#000;
-    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    background-color:  rgb(63, 76, 119);
     z-index: 1;
 }
 #i001,#i002,#i003,#i004  {
@@ -24,9 +24,7 @@ body {
     width: 65px;
     border-radius: 20px;
     text-align: center;
-    
-}   
-
+    }
 .navbar ul {
     display: flex;
     justify-content: left;
@@ -34,6 +32,9 @@ body {
     color: #EEE0CB;
 }
 #round{
+    z-index: 0;
+}
+#round:hover{
     z-index: 0;
 }
 li {
@@ -53,7 +54,6 @@ li {
     background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
     z-index: 2;
 }
-
 .outer,
 .inner {
     margin: 0px 50px;
@@ -67,7 +67,6 @@ li {
 .outer{
     height: 63px;
     width: 107px;
-    
 }
 .buttonChild {
     height: 75px;
@@ -85,6 +84,7 @@ button {
     background-color: #000;
     color: #fff;
     z-index: 2;
+    border:3px #14ffe9;
 }
 
 .circle {
